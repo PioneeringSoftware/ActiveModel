@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:Rakefile">
+   </FileRef>
+   <FileRef
+      location = "group:MIT-LICENSE.txt">
+   </FileRef>
+   <FileRef
+      location = "group:Gemfile.lock">
+   </FileRef>
+   <FileRef
+      location = "group:Gemfile">
+   </FileRef>
+   <FileRef
+      location = "group:Doxyfile">
+   </FileRef>
+   <FileRef
+      location = "group:AppledocSettings.plist">
+   </FileRef>
+   <FileRef
+      location = "group:ActiveModelLib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ActiveModelKit.xcodeproj">
+   </FileRef>
+</Workspace>
