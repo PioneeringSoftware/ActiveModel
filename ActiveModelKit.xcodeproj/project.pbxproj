@@ -7,84 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78331D22140FB0CF00EE59E1 /* ActiveSupportKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78331D08140FB08600EE59E1 /* ActiveSupportKit.framework */; };
 		7835BC931414C68000CC4B56 /* Versioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 7835BC911414C68000CC4B56 /* Versioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7835BC941414C68000CC4B56 /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835BC921414C68000CC4B56 /* Versioning.m */; };
 		78A36DA2140D1EB000E48D11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78A36DA0140D1EB000E48D11 /* InfoPlist.strings */; };
 		78A36DAE140D1EB100E48D11 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A36DAD140D1EB100E48D11 /* SenTestingKit.framework */; };
 		78A36DB2140D1EB100E48D11 /* ActiveModelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A36D94140D1EB000E48D11 /* ActiveModelKit.framework */; };
 		78A36DB8140D1EB100E48D11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78A36DB6140D1EB100E48D11 /* InfoPlist.strings */; };
-		78A36DBA140D1EB100E48D11 /* ActiveModelKitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 78A36DB9140D1EB100E48D11 /* ActiveModelKitTests.h */; };
-		78A36DBC140D1EB100E48D11 /* ActiveModelKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A36DBB140D1EB100E48D11 /* ActiveModelKitTests.m */; };
+		78A36DBA140D1EB100E48D11 /* ActiveModelTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 78A36DB9140D1EB100E48D11 /* ActiveModelTests.h */; };
+		78A36DBC140D1EB100E48D11 /* ActiveModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A36DBB140D1EB100E48D11 /* ActiveModelTests.m */; };
 		78A36DC9140D1F2000E48D11 /* ActiveModelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A36DC8140D1F2000E48D11 /* ActiveModelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78A36DCD140D1F5400E48D11 /* AMName.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A36DCB140D1F5400E48D11 /* AMName.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78A36DCE140D1F5400E48D11 /* AMName.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A36DCC140D1F5400E48D11 /* AMName.m */; };
 		78A6F0EF14D692D2002F965B /* AMName+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A6F0ED14D692D2002F965B /* AMName+Private.h */; };
-		78A6F0F014D692D2002F965B /* AMName+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A6F0ED14D692D2002F965B /* AMName+Private.h */; };
 		78A6F0F114D692D2002F965B /* AMName+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A6F0EE14D692D2002F965B /* AMName+Private.m */; };
-		78A6F0F214D692D2002F965B /* AMName+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A6F0EE14D692D2002F965B /* AMName+Private.m */; };
-		78BF7F18141646A500DB0DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF7F17141646A500DB0DEA /* Foundation.framework */; };
-		78BF7F25141646A500DB0DEA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A36DAD140D1EB100E48D11 /* SenTestingKit.framework */; };
-		78BF7F28141646A500DB0DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF7F17141646A500DB0DEA /* Foundation.framework */; };
-		78BF7F2D141646A500DB0DEA /* libActiveModelKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF7F16141646A500DB0DEA /* libActiveModelKit.a */; };
-		78BF7F3E141647E100DB0DEA /* ActiveModelKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A36DBB140D1EB100E48D11 /* ActiveModelKitTests.m */; };
 		78BF7F3F1416480E00DB0DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF7F17141646A500DB0DEA /* Foundation.framework */; };
 		78BF7F401416480F00DB0DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF7F17141646A500DB0DEA /* Foundation.framework */; };
-		78BF7F411416498E00DB0DEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78A36DB6140D1EB100E48D11 /* InfoPlist.strings */; };
-		78BF7F42141649CC00DB0DEA /* ActiveModelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A36DC8140D1F2000E48D11 /* ActiveModelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78BF7F43141649CC00DB0DEA /* AMName.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A36DCB140D1F5400E48D11 /* AMName.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78BF7F44141649CC00DB0DEA /* AMName.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A36DCC140D1F5400E48D11 /* AMName.m */; };
-		78BF7F45141649CC00DB0DEA /* Versioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 7835BC911414C68000CC4B56 /* Versioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78BF7F46141649CC00DB0DEA /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835BC921414C68000CC4B56 /* Versioning.m */; };
-		78BF7F4914164ACB00DB0DEA /* libActiveSupportKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78331D0C140FB08600EE59E1 /* libActiveSupportKit.a */; };
 		78F526DD1458779400C1C0E1 /* AMJSONSerializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F526DB1458779400C1C0E1 /* AMJSONSerializers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78F526DE1458779400C1C0E1 /* AMJSONSerializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F526DB1458779400C1C0E1 /* AMJSONSerializers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78F526DF1458779400C1C0E1 /* AMJSONSerializers.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F526DC1458779400C1C0E1 /* AMJSONSerializers.m */; };
-		78F526E01458779400C1C0E1 /* AMJSONSerializers.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F526DC1458779400C1C0E1 /* AMJSONSerializers.m */; };
 		78F526F714587A7E00C1C0E1 /* AMAttributeMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F526F614587A7E00C1C0E1 /* AMAttributeMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78F526F814587A7E00C1C0E1 /* AMAttributeMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F526F614587A7E00C1C0E1 /* AMAttributeMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78F526FB14587BB100C1C0E1 /* AMSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F526F914587BB100C1C0E1 /* AMSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78F526FC14587BB100C1C0E1 /* AMSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F526F914587BB100C1C0E1 /* AMSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78F526FD14587BB100C1C0E1 /* AMSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F526FA14587BB100C1C0E1 /* AMSerialization.m */; };
-		78F526FE14587BB100C1C0E1 /* AMSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F526FA14587BB100C1C0E1 /* AMSerialization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		78331D07140FB08600EE59E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 783545EB13EA64C50049385C;
-			remoteInfo = ActiveSupportKitFramework;
-		};
-		78331D09140FB08600EE59E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7835460313EA64C50049385C;
-			remoteInfo = ActiveSupportKitFrameworkTests;
-		};
-		78331D0B140FB08600EE59E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 78AFBD8F13EC587900BBFC62;
-			remoteInfo = ActiveSupportKitLibrary;
-		};
-		78331D0D140FB08600EE59E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 78AFBD9D13EC587900BBFC62;
-			remoteInfo = ActiveSupportKitLibraryTests;
-		};
-		78331D20140FB0C300EE59E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 783545EA13EA64C50049385C;
-			remoteInfo = ActiveSupportKitFramework;
-		};
 		78A36DB0140D1EB100E48D11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78A36D8A140D1EB000E48D11 /* Project object */;
@@ -92,24 +37,10 @@
 			remoteGlobalIDString = 78A36D93140D1EB000E48D11;
 			remoteInfo = ActiveModelKit;
 		};
-		78BF7F2B141646A500DB0DEA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78A36D8A140D1EB000E48D11 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78BF7F15141646A500DB0DEA;
-			remoteInfo = ActiveModelKitLibrary;
-		};
-		78BF7F4714164A0700DB0DEA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 78AFBD8E13EC587900BBFC62;
-			remoteInfo = ActiveSupportKitLibrary;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ActiveSupportKit.xcodeproj; path = ../ActiveSupportKit/ActiveSupportKit.xcodeproj; sourceTree = "<group>"; };
+		78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ActiveSupportKit.xcodeproj; path = ../ActiveSupport/ActiveSupportKit.xcodeproj; sourceTree = "<group>"; };
 		7835BC911414C68000CC4B56 /* Versioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Versioning.h; sourceTree = "<group>"; };
 		7835BC921414C68000CC4B56 /* Versioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Versioning.m; sourceTree = "<group>"; };
 		78A36D94140D1EB000E48D11 /* ActiveModelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActiveModelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,16 +51,14 @@
 		78A36DAD140D1EB100E48D11 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		78A36DB5140D1EB100E48D11 /* ActiveModelKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActiveModelKitTests-Info.plist"; sourceTree = "<group>"; };
 		78A36DB7140D1EB100E48D11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		78A36DB9140D1EB100E48D11 /* ActiveModelKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActiveModelKitTests.h; sourceTree = "<group>"; };
-		78A36DBB140D1EB100E48D11 /* ActiveModelKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActiveModelKitTests.m; sourceTree = "<group>"; };
+		78A36DB9140D1EB100E48D11 /* ActiveModelTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActiveModelTests.h; sourceTree = "<group>"; };
+		78A36DBB140D1EB100E48D11 /* ActiveModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActiveModelTests.m; sourceTree = "<group>"; };
 		78A36DC8140D1F2000E48D11 /* ActiveModelKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveModelKit.h; sourceTree = "<group>"; };
 		78A36DCB140D1F5400E48D11 /* AMName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMName.h; sourceTree = "<group>"; };
 		78A36DCC140D1F5400E48D11 /* AMName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMName.m; sourceTree = "<group>"; };
 		78A6F0ED14D692D2002F965B /* AMName+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AMName+Private.h"; sourceTree = "<group>"; };
 		78A6F0EE14D692D2002F965B /* AMName+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AMName+Private.m"; sourceTree = "<group>"; };
-		78BF7F16141646A500DB0DEA /* libActiveModelKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libActiveModelKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BF7F17141646A500DB0DEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		78BF7F24141646A500DB0DEA /* ActiveModelKitLibraryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActiveModelKitLibraryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F526DB1458779400C1C0E1 /* AMJSONSerializers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMJSONSerializers.h; sourceTree = "<group>"; };
 		78F526DC1458779400C1C0E1 /* AMJSONSerializers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMJSONSerializers.m; sourceTree = "<group>"; };
 		78F526F614587A7E00C1C0E1 /* AMAttributeMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAttributeMethods.h; sourceTree = "<group>"; };
@@ -142,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78331D22140FB0CF00EE59E1 /* ActiveSupportKit.framework in Frameworks */,
 				78BF7F3F1416480E00DB0DEA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,44 +85,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78BF7F13141646A500DB0DEA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78BF7F18141646A500DB0DEA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78BF7F20141646A500DB0DEA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78BF7F4914164ACB00DB0DEA /* libActiveSupportKit.a in Frameworks */,
-				78BF7F25141646A500DB0DEA /* SenTestingKit.framework in Frameworks */,
-				78BF7F28141646A500DB0DEA /* Foundation.framework in Frameworks */,
-				78BF7F2D141646A500DB0DEA /* libActiveModelKit.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		78331D01140FB08600EE59E1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				78331D08140FB08600EE59E1 /* ActiveSupportKit.framework */,
-				78331D0A140FB08600EE59E1 /* ActiveSupportKitFrameworkTests.octest */,
-				78331D0C140FB08600EE59E1 /* libActiveSupportKit.a */,
-				78331D0E140FB08600EE59E1 /* ActiveSupportKitLibraryTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		78A36D88140D1EB000E48D11 = {
 			isa = PBXGroup;
 			children = (
 				78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */,
-				78A36D9D140D1EB000E48D11 /* ActiveModelKit */,
+				78A36D9D140D1EB000E48D11 /* ActiveModel */,
 				78A36DB3140D1EB100E48D11 /* ActiveModelKitTests */,
 				78A36D96140D1EB000E48D11 /* Frameworks */,
 				78A36D95140D1EB000E48D11 /* Products */,
@@ -206,8 +104,6 @@
 			children = (
 				78A36D94140D1EB000E48D11 /* ActiveModelKit.framework */,
 				78A36DAC140D1EB100E48D11 /* ActiveModelKitFrameworkTests.octest */,
-				78BF7F16141646A500DB0DEA /* libActiveModelKit.a */,
-				78BF7F24141646A500DB0DEA /* ActiveModelKitLibraryTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -229,7 +125,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		78A36D9D140D1EB000E48D11 /* ActiveModelKit */ = {
+		78A36D9D140D1EB000E48D11 /* ActiveModel */ = {
 			isa = PBXGroup;
 			children = (
 				78A36DC8140D1F2000E48D11 /* ActiveModelKit.h */,
@@ -244,7 +140,7 @@
 				78F526DC1458779400C1C0E1 /* AMJSONSerializers.m */,
 				78A36D9E140D1EB000E48D11 /* Supporting Files */,
 			);
-			path = ActiveModelKit;
+			path = ActiveModel;
 			sourceTree = "<group>";
 		};
 		78A36D9E140D1EB000E48D11 /* Supporting Files */ = {
@@ -262,11 +158,12 @@
 		78A36DB3140D1EB100E48D11 /* ActiveModelKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				78A36DB9140D1EB100E48D11 /* ActiveModelKitTests.h */,
-				78A36DBB140D1EB100E48D11 /* ActiveModelKitTests.m */,
+				78A36DB9140D1EB100E48D11 /* ActiveModelTests.h */,
+				78A36DBB140D1EB100E48D11 /* ActiveModelTests.m */,
 				78A36DB4140D1EB100E48D11 /* Supporting Files */,
 			);
-			path = ActiveModelKitTests;
+			name = ActiveModelKitTests;
+			path = ActiveModelTests;
 			sourceTree = "<group>";
 		};
 		78A36DB4140D1EB100E48D11 /* Supporting Files */ = {
@@ -295,26 +192,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78BF7F14141646A500DB0DEA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78BF7F42141649CC00DB0DEA /* ActiveModelKit.h in Headers */,
-				78BF7F43141649CC00DB0DEA /* AMName.h in Headers */,
-				78BF7F45141649CC00DB0DEA /* Versioning.h in Headers */,
-				78F526DE1458779400C1C0E1 /* AMJSONSerializers.h in Headers */,
-				78F526F814587A7E00C1C0E1 /* AMAttributeMethods.h in Headers */,
-				78F526FC14587BB100C1C0E1 /* AMSerialization.h in Headers */,
-				78A6F0F014D692D2002F965B /* AMName+Private.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		78A36D93140D1EB000E48D11 /* ActiveModelKitFramework */ = {
+		78A36D93140D1EB000E48D11 /* ActiveModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78A36DBF140D1EB100E48D11 /* Build configuration list for PBXNativeTarget "ActiveModelKitFramework" */;
+			buildConfigurationList = 78A36DBF140D1EB100E48D11 /* Build configuration list for PBXNativeTarget "ActiveModel" */;
 			buildPhases = (
 				78A36D8F140D1EB000E48D11 /* Sources */,
 				78A36D90140D1EB000E48D11 /* Frameworks */,
@@ -324,16 +207,15 @@
 			buildRules = (
 			);
 			dependencies = (
-				78331D21140FB0C300EE59E1 /* PBXTargetDependency */,
 			);
-			name = ActiveModelKitFramework;
+			name = ActiveModel;
 			productName = ActiveModelKit;
 			productReference = 78A36D94140D1EB000E48D11 /* ActiveModelKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		78A36DAB140D1EB100E48D11 /* ActiveModelKitFrameworkTests */ = {
+		78A36DAB140D1EB100E48D11 /* ActiveModelTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78A36DC2140D1EB100E48D11 /* Build configuration list for PBXNativeTarget "ActiveModelKitFrameworkTests" */;
+			buildConfigurationList = 78A36DC2140D1EB100E48D11 /* Build configuration list for PBXNativeTarget "ActiveModelTests" */;
 			buildPhases = (
 				78A36DA7140D1EB100E48D11 /* Sources */,
 				78A36DA8140D1EB100E48D11 /* Frameworks */,
@@ -345,46 +227,9 @@
 			dependencies = (
 				78A36DB1140D1EB100E48D11 /* PBXTargetDependency */,
 			);
-			name = ActiveModelKitFrameworkTests;
+			name = ActiveModelTests;
 			productName = ActiveModelKitTests;
 			productReference = 78A36DAC140D1EB100E48D11 /* ActiveModelKitFrameworkTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
-		78BF7F15141646A500DB0DEA /* ActiveModelKitLibrary */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78BF7F38141646A500DB0DEA /* Build configuration list for PBXNativeTarget "ActiveModelKitLibrary" */;
-			buildPhases = (
-				78BF7F12141646A500DB0DEA /* Sources */,
-				78BF7F13141646A500DB0DEA /* Frameworks */,
-				78BF7F14141646A500DB0DEA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78BF7F4814164A0700DB0DEA /* PBXTargetDependency */,
-			);
-			name = ActiveModelKitLibrary;
-			productName = ActiveModelKitLibrary;
-			productReference = 78BF7F16141646A500DB0DEA /* libActiveModelKit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		78BF7F23141646A500DB0DEA /* ActiveModelKitLibraryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78BF7F3B141646A500DB0DEA /* Build configuration list for PBXNativeTarget "ActiveModelKitLibraryTests" */;
-			buildPhases = (
-				78BF7F1F141646A500DB0DEA /* Sources */,
-				78BF7F20141646A500DB0DEA /* Frameworks */,
-				78BF7F21141646A500DB0DEA /* Resources */,
-				78BF7F22141646A500DB0DEA /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78BF7F2C141646A500DB0DEA /* PBXTargetDependency */,
-			);
-			name = ActiveModelKitLibraryTests;
-			productName = ActiveModelKitLibraryTests;
-			productReference = 78BF7F24141646A500DB0DEA /* ActiveModelKitLibraryTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -406,52 +251,13 @@
 			mainGroup = 78A36D88140D1EB000E48D11;
 			productRefGroup = 78A36D95140D1EB000E48D11 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 78331D01140FB08600EE59E1 /* Products */;
-					ProjectRef = 78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				78A36D93140D1EB000E48D11 /* ActiveModelKitFramework */,
-				78A36DAB140D1EB100E48D11 /* ActiveModelKitFrameworkTests */,
-				78BF7F15141646A500DB0DEA /* ActiveModelKitLibrary */,
-				78BF7F23141646A500DB0DEA /* ActiveModelKitLibraryTests */,
+				78A36D93140D1EB000E48D11 /* ActiveModel */,
+				78A36DAB140D1EB100E48D11 /* ActiveModelTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		78331D08140FB08600EE59E1 /* ActiveSupportKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ActiveSupportKit.framework;
-			remoteRef = 78331D07140FB08600EE59E1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		78331D0A140FB08600EE59E1 /* ActiveSupportKitFrameworkTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ActiveSupportKitFrameworkTests.octest;
-			remoteRef = 78331D09140FB08600EE59E1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		78331D0C140FB08600EE59E1 /* libActiveSupportKit.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libActiveSupportKit.a;
-			remoteRef = 78331D0B140FB08600EE59E1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		78331D0E140FB08600EE59E1 /* ActiveSupportKitLibraryTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ActiveSupportKitLibraryTests.octest;
-			remoteRef = 78331D0D140FB08600EE59E1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		78A36D92140D1EB000E48D11 /* Resources */ = {
@@ -467,15 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78A36DB8140D1EB100E48D11 /* InfoPlist.strings in Resources */,
-				78A36DBA140D1EB100E48D11 /* ActiveModelKitTests.h in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78BF7F21141646A500DB0DEA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78BF7F411416498E00DB0DEA /* InfoPlist.strings in Resources */,
+				78A36DBA140D1EB100E48D11 /* ActiveModelTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,19 +281,6 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		78A36DAA140D1EB100E48D11 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-		78BF7F22141646A500DB0DEA /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -527,52 +312,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A36DBC140D1EB100E48D11 /* ActiveModelKitTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78BF7F12141646A500DB0DEA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78BF7F44141649CC00DB0DEA /* AMName.m in Sources */,
-				78BF7F46141649CC00DB0DEA /* Versioning.m in Sources */,
-				78F526E01458779400C1C0E1 /* AMJSONSerializers.m in Sources */,
-				78F526FE14587BB100C1C0E1 /* AMSerialization.m in Sources */,
-				78A6F0F214D692D2002F965B /* AMName+Private.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78BF7F1F141646A500DB0DEA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78BF7F3E141647E100DB0DEA /* ActiveModelKitTests.m in Sources */,
+				78A36DBC140D1EB100E48D11 /* ActiveModelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		78331D21140FB0C300EE59E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ActiveSupportKitFramework;
-			targetProxy = 78331D20140FB0C300EE59E1 /* PBXContainerItemProxy */;
-		};
 		78A36DB1140D1EB100E48D11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 78A36D93140D1EB000E48D11 /* ActiveModelKitFramework */;
+			target = 78A36D93140D1EB000E48D11 /* ActiveModel */;
 			targetProxy = 78A36DB0140D1EB100E48D11 /* PBXContainerItemProxy */;
-		};
-		78BF7F2C141646A500DB0DEA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 78BF7F15141646A500DB0DEA /* ActiveModelKitLibrary */;
-			targetProxy = 78BF7F2B141646A500DB0DEA /* PBXContainerItemProxy */;
-		};
-		78BF7F4814164A0700DB0DEA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ActiveSupportKitLibrary;
-			targetProxy = 78BF7F4714164A0700DB0DEA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -717,80 +467,6 @@
 			};
 			name = Release;
 		};
-		78BF7F39141646A500DB0DEA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DSTROOT = /tmp/ActiveModelKitLibrary.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActiveModelKit/ActiveModelKit-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(DSTROOT)/include";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PROJECT_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		78BF7F3A141646A500DB0DEA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DSTROOT = /tmp/ActiveModelKitLibrary.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActiveModelKit/ActiveModelKit-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(DSTROOT)/include";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PROJECT_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		78BF7F3C141646A500DB0DEA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActiveModelKit/ActiveModelKit-Prefix.pch";
-				INFOPLIST_FILE = "ActiveModelKitTests/ActiveModelKitTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-all_load";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		78BF7F3D141646A500DB0DEA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActiveModelKit/ActiveModelKit-Prefix.pch";
-				INFOPLIST_FILE = "ActiveModelKitTests/ActiveModelKitTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-all_load";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -803,7 +479,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78A36DBF140D1EB100E48D11 /* Build configuration list for PBXNativeTarget "ActiveModelKitFramework" */ = {
+		78A36DBF140D1EB100E48D11 /* Build configuration list for PBXNativeTarget "ActiveModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78A36DC0140D1EB100E48D11 /* Debug */,
@@ -812,29 +488,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78A36DC2140D1EB100E48D11 /* Build configuration list for PBXNativeTarget "ActiveModelKitFrameworkTests" */ = {
+		78A36DC2140D1EB100E48D11 /* Build configuration list for PBXNativeTarget "ActiveModelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78A36DC3140D1EB100E48D11 /* Debug */,
 				78A36DC4140D1EB100E48D11 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78BF7F38141646A500DB0DEA /* Build configuration list for PBXNativeTarget "ActiveModelKitLibrary" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78BF7F39141646A500DB0DEA /* Debug */,
-				78BF7F3A141646A500DB0DEA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78BF7F3B141646A500DB0DEA /* Build configuration list for PBXNativeTarget "ActiveModelKitLibraryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78BF7F3C141646A500DB0DEA /* Debug */,
-				78BF7F3D141646A500DB0DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
