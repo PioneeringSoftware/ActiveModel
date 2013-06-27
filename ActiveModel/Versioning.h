@@ -1,4 +1,4 @@
-/* ActiveModelKit Versioning.h
+/* ActiveModel Versioning.h
  *
  * Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
  *
@@ -24,8 +24,8 @@
 
 #import <Foundation/Foundation.h>
 
-extern const unsigned char kActiveModelKitVersionString[];
-extern const double kActiveModelKitVersionNumber;
+extern const unsigned char kActiveModelVersionString[];
+extern const double kActiveModelVersionNumber;
 
 /**
  * Answers the current Apple-generic versioning-formatted version string. The
@@ -33,4 +33,4 @@ extern const double kActiveModelKitVersionNumber;
  * newlines. Note that the raw C-based version string contrastingly has a single
  * terminating newline character.
  */
-NSString *ActiveModelKitVersionString(void);
+NSString *ActiveModelVersionString(void);

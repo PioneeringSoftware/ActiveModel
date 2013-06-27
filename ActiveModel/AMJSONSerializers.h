@@ -1,4 +1,4 @@
-// ActiveModelKit AMJSONSerializers.h
+// ActiveModel AMJSONSerializers.h
 //
 // Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -22,7 +22,7 @@
 //
 //------------------------------------------------------------------------------
 
-#import <ActiveModelKit/AMAttributeMethods.h>
+#import <ActiveModel/AMAttributeMethods.h>
 
 extern NSString *const AMRootOptionKey;
 

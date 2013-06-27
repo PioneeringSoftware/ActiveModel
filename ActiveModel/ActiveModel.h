@@ -1,4 +1,4 @@
-/* ActiveModelKit ActiveModelKit.h
+/* ActiveModel ActiveModel.h
  *
  * Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
  *
@@ -22,10 +22,10 @@
  *
  ******************************************************************************/
 
-#import <ActiveModelKit/AMName.h>
+#import <ActiveModel/AMName.h>
 
-#import <ActiveModelKit/AMAttributeMethods.h>
-#import <ActiveModelKit/AMSerialization.h>
-#import <ActiveModelKit/AMJSONSerializers.h>
+#import <ActiveModel/AMAttributeMethods.h>
+#import <ActiveModel/AMSerialization.h>
+#import <ActiveModel/AMJSONSerializers.h>
 
-#import <ActiveModelKit/Versioning.h>
+#import <ActiveModel/Versioning.h>

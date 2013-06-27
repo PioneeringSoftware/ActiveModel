@@ -1,4 +1,4 @@
-// ActiveModelKit AMName+Private.h
+// ActiveModel AMName+Private.h
 //
 // Copyright © 2012, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -22,7 +22,7 @@
 //
 //------------------------------------------------------------------------------
 
-#import <ActiveModelKit/AMName.h>
+#import <ActiveModel/AMName.h>
 
 @interface AMName(Private)
 

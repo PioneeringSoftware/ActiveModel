@@ -1,4 +1,4 @@
-/* ActiveModelKit AMAttributeMethods.h
+/* ActiveModel AMAttributeMethods.h
  *
  * Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
  *

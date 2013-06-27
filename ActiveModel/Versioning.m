@@ -1,4 +1,4 @@
-/* ActiveModelKit Versioning.m
+/* ActiveModel Versioning.m
  *
  * Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
  *
@@ -24,7 +24,7 @@
 
 #import "Versioning.h"
 
-NSString *ActiveModelKitVersionString()
+NSString *ActiveModelVersionString()
 {
 	// The implementation assumes that the raw C-language version string
 	// terminates with null. It also trims assuming that the very last character
@@ -32,7 +32,7 @@ NSString *ActiveModelKitVersionString()
 	static NSString *__strong versionString;
 	if (versionString == nil)
 	{
-		versionString = [[NSString stringWithCString:(const char *)kActiveModelKitVersionString encoding:NSUTF8StringEncoding] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+		versionString = [[NSString stringWithCString:(const char *)kActiveModelVersionString encoding:NSUTF8StringEncoding] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 		atexit_b(^(void) {
 			versionString = nil;
 		});
