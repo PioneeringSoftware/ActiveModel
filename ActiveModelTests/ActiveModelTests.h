@@ -1,4 +1,4 @@
-// ActiveModelKitTests ActiveModelKitTests.h
+// ActiveModelTests ActiveModelTests.h
 //
 // Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -24,6 +24,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface ActiveModelKitTests : SenTestCase
+@interface ActiveModelTests : SenTestCase
 
 @end

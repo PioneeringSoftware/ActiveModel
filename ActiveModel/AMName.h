@@ -1,4 +1,4 @@
-// ActiveModelKit AMName.h
+// ActiveModel AMName.h
 //
 // Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
