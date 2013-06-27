@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		788B4D62177CD98900954A14 /* libActiveSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 788B4D5D177CD7EA00954A14 /* libActiveSupport.a */; };
 		78A6F0F014D692D2002F965B /* AMName+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A6F0ED14D692D2002F965B /* AMName+Private.h */; };
 		78A6F0F214D692D2002F965B /* AMName+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A6F0EE14D692D2002F965B /* AMName+Private.m */; };
 		78BF7F18141646A500DB0DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF7F17141646A500DB0DEA /* Foundation.framework */; };
@@ -41,6 +42,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 78AFBD9D13EC587900BBFC62;
 			remoteInfo = ActiveSupportTests;
+		};
+		788B4D60177CD98200954A14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78331D00140FB08600EE59E1 /* ActiveSupportLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 78AFBD8E13EC587900BBFC62;
+			remoteInfo = ActiveSupport;
 		};
 		78BF7F2B141646A500DB0DEA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -83,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788B4D62177CD98900954A14 /* libActiveSupport.a in Frameworks */,
 				78BF7F18141646A500DB0DEA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +236,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				788B4D61177CD98200954A14 /* PBXTargetDependency */,
 			);
 			name = ActiveModel;
 			productName = ActiveModelKitLibrary;
@@ -353,6 +363,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		788B4D61177CD98200954A14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ActiveSupport;
+			targetProxy = 788B4D60177CD98200954A14 /* PBXContainerItemProxy */;
+		};
 		78BF7F2C141646A500DB0DEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 78BF7F15141646A500DB0DEA /* ActiveModel */;
