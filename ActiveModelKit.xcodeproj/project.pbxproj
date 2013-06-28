@@ -410,6 +410,7 @@
 /* Begin XCBuildConfiguration section */
 		78A36DBD140D1EB100E48D11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7839126B177CDC85004A7D08 /* ActiveModel.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -442,6 +443,7 @@
 		};
 		78A36DBE140D1EB100E48D11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7839126B177CDC85004A7D08 /* ActiveModel.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
