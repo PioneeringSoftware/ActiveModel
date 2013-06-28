@@ -5,7 +5,8 @@
       location = "group:README.md">
    </FileRef>
    <FileRef
-      location = "group:Rakefile">
+      location = "group:Rakefile"
+      assignedFileDataType = "public.ruby-script">
    </FileRef>
    <FileRef
       location = "group:MIT-LICENSE.txt">
@@ -14,13 +15,17 @@
       location = "group:Gemfile.lock">
    </FileRef>
    <FileRef
-      location = "group:Gemfile">
+      location = "group:Gemfile"
+      assignedFileDataType = "public.ruby-script">
    </FileRef>
    <FileRef
       location = "group:Doxyfile">
    </FileRef>
    <FileRef
       location = "group:AppledocSettings.plist">
+   </FileRef>
+   <FileRef
+      location = "group:Versioning.xcconfig">
    </FileRef>
    <FileRef
       location = "group:ActiveModelLib.xcodeproj">
