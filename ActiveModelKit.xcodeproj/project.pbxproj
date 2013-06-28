@@ -65,6 +65,7 @@
 		78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ActiveSupportKit.xcodeproj; path = ../ActiveSupport/ActiveSupportKit.xcodeproj; sourceTree = "<group>"; };
 		7835BC911414C68000CC4B56 /* Versioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Versioning.h; sourceTree = "<group>"; };
 		7835BC921414C68000CC4B56 /* Versioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Versioning.m; sourceTree = "<group>"; };
+		7839126B177CDC85004A7D08 /* ActiveModel.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ActiveModel.xcconfig; sourceTree = "<group>"; };
 		78A36D94140D1EB000E48D11 /* ActiveModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActiveModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A36D9F140D1EB000E48D11 /* ActiveModel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActiveModel-Info.plist"; sourceTree = "<group>"; };
 		78A36DA1140D1EB000E48D11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -183,6 +184,7 @@
 				78A36DA3140D1EB000E48D11 /* ActiveModel-Prefix.pch */,
 				7835BC911414C68000CC4B56 /* Versioning.h */,
 				7835BC921414C68000CC4B56 /* Versioning.m */,
+				7839126B177CDC85004A7D08 /* ActiveModel.xcconfig */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
