@@ -1,4 +1,4 @@
-// ActiveModelKit AMJSONSerializers.m
+// ActiveModel AMJSONSerializers.m
 //
 // Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -33,7 +33,7 @@
 // run-time headers.
 #import <objc/message.h>
 
-#import <ActiveSupportKit/ActiveSupportKit.h>
+#import <ActiveSupport/ActiveSupport.h>
 
 NSString *const AMRootOptionKey = @"root";
 

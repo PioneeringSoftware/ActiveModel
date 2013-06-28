@@ -7,70 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7835BC931414C68000CC4B56 /* Versioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 7835BC911414C68000CC4B56 /* Versioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7835BC941414C68000CC4B56 /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835BC921414C68000CC4B56 /* Versioning.m */; };
-		788B4D56177CD66D00954A14 /* ActiveSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788B4D4E177CD5FF00954A14 /* ActiveSupport.framework */; };
-		78A36DA2140D1EB000E48D11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78A36DA0140D1EB000E48D11 /* InfoPlist.strings */; };
-		78A36DAE140D1EB100E48D11 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A36DAD140D1EB100E48D11 /* SenTestingKit.framework */; };
-		78A36DB2140D1EB100E48D11 /* ActiveModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A36D94140D1EB000E48D11 /* ActiveModel.framework */; };
-		78A36DB8140D1EB100E48D11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78A36DB6140D1EB100E48D11 /* InfoPlist.strings */; };
-		78A36DBA140D1EB100E48D11 /* ActiveModelTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 78A36DB9140D1EB100E48D11 /* ActiveModelTests.h */; };
-		78A36DBC140D1EB100E48D11 /* ActiveModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A36DBB140D1EB100E48D11 /* ActiveModelTests.m */; };
-		78A36DC9140D1F2000E48D11 /* ActiveModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A36DC8140D1F2000E48D11 /* ActiveModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78A36DCD140D1F5400E48D11 /* AMName.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A36DCB140D1F5400E48D11 /* AMName.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78A36DCE140D1F5400E48D11 /* AMName.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A36DCC140D1F5400E48D11 /* AMName.m */; };
-		78A6F0EF14D692D2002F965B /* AMName+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A6F0ED14D692D2002F965B /* AMName+Private.h */; };
-		78A6F0F114D692D2002F965B /* AMName+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A6F0EE14D692D2002F965B /* AMName+Private.m */; };
-		78BF7F3F1416480E00DB0DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF7F17141646A500DB0DEA /* Foundation.framework */; };
-		78BF7F401416480F00DB0DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF7F17141646A500DB0DEA /* Foundation.framework */; };
-		78F526DD1458779400C1C0E1 /* AMJSONSerializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F526DB1458779400C1C0E1 /* AMJSONSerializers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78F526DF1458779400C1C0E1 /* AMJSONSerializers.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F526DC1458779400C1C0E1 /* AMJSONSerializers.m */; };
-		78F526F714587A7E00C1C0E1 /* AMAttributeMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F526F614587A7E00C1C0E1 /* AMAttributeMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78F526FB14587BB100C1C0E1 /* AMSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F526F914587BB100C1C0E1 /* AMSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78F526FD14587BB100C1C0E1 /* AMSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F526FA14587BB100C1C0E1 /* AMSerialization.m */; };
+		788B4D62177CD98900954A14 /* libActiveSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 788B4D5D177CD7EA00954A14 /* libActiveSupport.a */; };
+		78A6F0F014D692D2002F965B /* AMName+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A6F0ED14D692D2002F965B /* AMName+Private.h */; };
+		78A6F0F214D692D2002F965B /* AMName+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A6F0EE14D692D2002F965B /* AMName+Private.m */; };
+		78BF7F18141646A500DB0DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF7F17141646A500DB0DEA /* Foundation.framework */; };
+		78BF7F25141646A500DB0DEA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A36DAD140D1EB100E48D11 /* SenTestingKit.framework */; };
+		78BF7F28141646A500DB0DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF7F17141646A500DB0DEA /* Foundation.framework */; };
+		78BF7F2D141646A500DB0DEA /* libActiveModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BF7F16141646A500DB0DEA /* libActiveModel.a */; };
+		78BF7F3E141647E100DB0DEA /* ActiveModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A36DBB140D1EB100E48D11 /* ActiveModelTests.m */; };
+		78BF7F411416498E00DB0DEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78A36DB6140D1EB100E48D11 /* InfoPlist.strings */; };
+		78BF7F42141649CC00DB0DEA /* ActiveModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A36DC8140D1F2000E48D11 /* ActiveModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78BF7F43141649CC00DB0DEA /* AMName.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A36DCB140D1F5400E48D11 /* AMName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78BF7F44141649CC00DB0DEA /* AMName.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A36DCC140D1F5400E48D11 /* AMName.m */; };
+		78BF7F45141649CC00DB0DEA /* Versioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 7835BC911414C68000CC4B56 /* Versioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78BF7F46141649CC00DB0DEA /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835BC921414C68000CC4B56 /* Versioning.m */; };
+		78F526DE1458779400C1C0E1 /* AMJSONSerializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F526DB1458779400C1C0E1 /* AMJSONSerializers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78F526E01458779400C1C0E1 /* AMJSONSerializers.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F526DC1458779400C1C0E1 /* AMJSONSerializers.m */; };
+		78F526F814587A7E00C1C0E1 /* AMAttributeMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F526F614587A7E00C1C0E1 /* AMAttributeMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78F526FC14587BB100C1C0E1 /* AMSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F526F914587BB100C1C0E1 /* AMSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78F526FE14587BB100C1C0E1 /* AMSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F526FA14587BB100C1C0E1 /* AMSerialization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		788B4D4D177CD5FF00954A14 /* PBXContainerItemProxy */ = {
+		788B4D5C177CD7EA00954A14 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */;
+			containerPortal = 78331D00140FB08600EE59E1 /* ActiveSupportLib.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 783545EB13EA64C50049385C;
+			remoteGlobalIDString = 78AFBD8F13EC587900BBFC62;
 			remoteInfo = ActiveSupport;
 		};
-		788B4D4F177CD5FF00954A14 /* PBXContainerItemProxy */ = {
+		788B4D5E177CD7EA00954A14 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */;
+			containerPortal = 78331D00140FB08600EE59E1 /* ActiveSupportLib.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 7835460313EA64C50049385C;
+			remoteGlobalIDString = 78AFBD9D13EC587900BBFC62;
 			remoteInfo = ActiveSupportTests;
 		};
-		788B4D52177CD66200954A14 /* PBXContainerItemProxy */ = {
+		788B4D60177CD98200954A14 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */;
+			containerPortal = 78331D00140FB08600EE59E1 /* ActiveSupportLib.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 783545EA13EA64C50049385C;
+			remoteGlobalIDString = 78AFBD8E13EC587900BBFC62;
 			remoteInfo = ActiveSupport;
 		};
-		78A36DB0140D1EB100E48D11 /* PBXContainerItemProxy */ = {
+		78BF7F2B141646A500DB0DEA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78A36D8A140D1EB000E48D11 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 78A36D93140D1EB000E48D11;
-			remoteInfo = ActiveModelKit;
+			remoteGlobalIDString = 78BF7F15141646A500DB0DEA;
+			remoteInfo = ActiveModelKitLibrary;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ActiveSupportKit.xcodeproj; path = ../ActiveSupport/ActiveSupportKit.xcodeproj; sourceTree = "<group>"; };
+		78331D00140FB08600EE59E1 /* ActiveSupportLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ActiveSupportLib.xcodeproj; path = ../ActiveSupport/ActiveSupportLib.xcodeproj; sourceTree = "<group>"; };
 		7835BC911414C68000CC4B56 /* Versioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Versioning.h; sourceTree = "<group>"; };
 		7835BC921414C68000CC4B56 /* Versioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Versioning.m; sourceTree = "<group>"; };
-		7839126B177CDC85004A7D08 /* ActiveModel.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ActiveModel.xcconfig; sourceTree = "<group>"; };
-		78A36D94140D1EB000E48D11 /* ActiveModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActiveModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78391269177CDC73004A7D08 /* ActiveModel.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ActiveModel.xcconfig; sourceTree = "<group>"; };
 		78A36D9F140D1EB000E48D11 /* ActiveModel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActiveModel-Info.plist"; sourceTree = "<group>"; };
 		78A36DA1140D1EB000E48D11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78A36DA3140D1EB000E48D11 /* ActiveModel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActiveModel-Prefix.pch"; sourceTree = "<group>"; };
-		78A36DAC140D1EB100E48D11 /* ActiveModelTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActiveModelTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A36DAD140D1EB100E48D11 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		78A36DB5140D1EB100E48D11 /* ActiveModelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActiveModelTests-Info.plist"; sourceTree = "<group>"; };
 		78A36DB7140D1EB100E48D11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -81,7 +77,9 @@
 		78A36DCC140D1F5400E48D11 /* AMName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMName.m; sourceTree = "<group>"; };
 		78A6F0ED14D692D2002F965B /* AMName+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AMName+Private.h"; sourceTree = "<group>"; };
 		78A6F0EE14D692D2002F965B /* AMName+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AMName+Private.m"; sourceTree = "<group>"; };
+		78BF7F16141646A500DB0DEA /* libActiveModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libActiveModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BF7F17141646A500DB0DEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78BF7F24141646A500DB0DEA /* ActiveModelTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActiveModelTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F526DB1458779400C1C0E1 /* AMJSONSerializers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMJSONSerializers.h; sourceTree = "<group>"; };
 		78F526DC1458779400C1C0E1 /* AMJSONSerializers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMJSONSerializers.m; sourceTree = "<group>"; };
 		78F526F614587A7E00C1C0E1 /* AMAttributeMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAttributeMethods.h; sourceTree = "<group>"; };
@@ -90,33 +88,33 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		78A36D90140D1EB000E48D11 /* Frameworks */ = {
+		78BF7F13141646A500DB0DEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788B4D56177CD66D00954A14 /* ActiveSupport.framework in Frameworks */,
-				78BF7F3F1416480E00DB0DEA /* Foundation.framework in Frameworks */,
+				788B4D62177CD98900954A14 /* libActiveSupport.a in Frameworks */,
+				78BF7F18141646A500DB0DEA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78A36DA8140D1EB100E48D11 /* Frameworks */ = {
+		78BF7F20141646A500DB0DEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A36DAE140D1EB100E48D11 /* SenTestingKit.framework in Frameworks */,
-				78A36DB2140D1EB100E48D11 /* ActiveModel.framework in Frameworks */,
-				78BF7F401416480F00DB0DEA /* Foundation.framework in Frameworks */,
+				78BF7F25141646A500DB0DEA /* SenTestingKit.framework in Frameworks */,
+				78BF7F28141646A500DB0DEA /* Foundation.framework in Frameworks */,
+				78BF7F2D141646A500DB0DEA /* libActiveModel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		788B4D49177CD5FF00954A14 /* Products */ = {
+		788B4D58177CD7EA00954A14 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				788B4D4E177CD5FF00954A14 /* ActiveSupport.framework */,
-				788B4D50177CD5FF00954A14 /* ActiveSupportTests.octest */,
+				788B4D5D177CD7EA00954A14 /* libActiveSupport.a */,
+				788B4D5F177CD7EA00954A14 /* ActiveSupportTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,9 +122,9 @@
 		78A36D88140D1EB000E48D11 = {
 			isa = PBXGroup;
 			children = (
-				78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */,
+				78331D00140FB08600EE59E1 /* ActiveSupportLib.xcodeproj */,
 				78A36D9D140D1EB000E48D11 /* ActiveModel */,
-				78A36DB3140D1EB100E48D11 /* ActiveModelTests */,
+				78A36DB3140D1EB100E48D11 /* ActiveModelKitTests */,
 				78A36D96140D1EB000E48D11 /* Frameworks */,
 				78A36D95140D1EB000E48D11 /* Products */,
 			);
@@ -135,8 +133,8 @@
 		78A36D95140D1EB000E48D11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				78A36D94140D1EB000E48D11 /* ActiveModel.framework */,
-				78A36DAC140D1EB100E48D11 /* ActiveModelTests.octest */,
+				78BF7F16141646A500DB0DEA /* libActiveModel.a */,
+				78BF7F24141646A500DB0DEA /* ActiveModelTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,18 +182,19 @@
 				78A36DA3140D1EB000E48D11 /* ActiveModel-Prefix.pch */,
 				7835BC911414C68000CC4B56 /* Versioning.h */,
 				7835BC921414C68000CC4B56 /* Versioning.m */,
-				7839126B177CDC85004A7D08 /* ActiveModel.xcconfig */,
+				78391269177CDC73004A7D08 /* ActiveModel.xcconfig */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		78A36DB3140D1EB100E48D11 /* ActiveModelTests */ = {
+		78A36DB3140D1EB100E48D11 /* ActiveModelKitTests */ = {
 			isa = PBXGroup;
 			children = (
 				78A36DB9140D1EB100E48D11 /* ActiveModelTests.h */,
 				78A36DBB140D1EB100E48D11 /* ActiveModelTests.m */,
 				78A36DB4140D1EB100E48D11 /* Supporting Files */,
 			);
+			name = ActiveModelKitTests;
 			path = ActiveModelTests;
 			sourceTree = "<group>";
 		};
@@ -211,59 +210,58 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		78A36D91140D1EB000E48D11 /* Headers */ = {
+		78BF7F14141646A500DB0DEA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A36DC9140D1F2000E48D11 /* ActiveModel.h in Headers */,
-				78A36DCD140D1F5400E48D11 /* AMName.h in Headers */,
-				7835BC931414C68000CC4B56 /* Versioning.h in Headers */,
-				78F526DD1458779400C1C0E1 /* AMJSONSerializers.h in Headers */,
-				78F526F714587A7E00C1C0E1 /* AMAttributeMethods.h in Headers */,
-				78F526FB14587BB100C1C0E1 /* AMSerialization.h in Headers */,
-				78A6F0EF14D692D2002F965B /* AMName+Private.h in Headers */,
+				78BF7F42141649CC00DB0DEA /* ActiveModel.h in Headers */,
+				78BF7F43141649CC00DB0DEA /* AMName.h in Headers */,
+				78BF7F45141649CC00DB0DEA /* Versioning.h in Headers */,
+				78F526DE1458779400C1C0E1 /* AMJSONSerializers.h in Headers */,
+				78F526F814587A7E00C1C0E1 /* AMAttributeMethods.h in Headers */,
+				78F526FC14587BB100C1C0E1 /* AMSerialization.h in Headers */,
+				78A6F0F014D692D2002F965B /* AMName+Private.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		78A36D93140D1EB000E48D11 /* ActiveModel */ = {
+		78BF7F15141646A500DB0DEA /* ActiveModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78A36DBF140D1EB100E48D11 /* Build configuration list for PBXNativeTarget "ActiveModel" */;
+			buildConfigurationList = 78BF7F38141646A500DB0DEA /* Build configuration list for PBXNativeTarget "ActiveModel" */;
 			buildPhases = (
-				78A36D8F140D1EB000E48D11 /* Sources */,
-				78A36D90140D1EB000E48D11 /* Frameworks */,
-				78A36D91140D1EB000E48D11 /* Headers */,
-				78A36D92140D1EB000E48D11 /* Resources */,
+				78BF7F12141646A500DB0DEA /* Sources */,
+				78BF7F13141646A500DB0DEA /* Frameworks */,
+				78BF7F14141646A500DB0DEA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				788B4D53177CD66200954A14 /* PBXTargetDependency */,
+				788B4D61177CD98200954A14 /* PBXTargetDependency */,
 			);
 			name = ActiveModel;
-			productName = ActiveModelKit;
-			productReference = 78A36D94140D1EB000E48D11 /* ActiveModel.framework */;
-			productType = "com.apple.product-type.framework";
+			productName = ActiveModelKitLibrary;
+			productReference = 78BF7F16141646A500DB0DEA /* libActiveModel.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		78A36DAB140D1EB100E48D11 /* ActiveModelTests */ = {
+		78BF7F23141646A500DB0DEA /* ActiveModelTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78A36DC2140D1EB100E48D11 /* Build configuration list for PBXNativeTarget "ActiveModelTests" */;
+			buildConfigurationList = 78BF7F3B141646A500DB0DEA /* Build configuration list for PBXNativeTarget "ActiveModelTests" */;
 			buildPhases = (
-				78A36DA7140D1EB100E48D11 /* Sources */,
-				78A36DA8140D1EB100E48D11 /* Frameworks */,
-				78A36DA9140D1EB100E48D11 /* Resources */,
-				78A36DAA140D1EB100E48D11 /* ShellScript */,
+				78BF7F1F141646A500DB0DEA /* Sources */,
+				78BF7F20141646A500DB0DEA /* Frameworks */,
+				78BF7F21141646A500DB0DEA /* Resources */,
+				78BF7F22141646A500DB0DEA /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				78A36DB1140D1EB100E48D11 /* PBXTargetDependency */,
+				78BF7F2C141646A500DB0DEA /* PBXTargetDependency */,
 			);
 			name = ActiveModelTests;
-			productName = ActiveModelKitTests;
-			productReference = 78A36DAC140D1EB100E48D11 /* ActiveModelTests.octest */;
+			productName = ActiveModelKitLibraryTests;
+			productReference = 78BF7F24141646A500DB0DEA /* ActiveModelTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -275,7 +273,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Pioneering Software, United Kingdom";
 			};
-			buildConfigurationList = 78A36D8D140D1EB000E48D11 /* Build configuration list for PBXProject "ActiveModelKit" */;
+			buildConfigurationList = 78A36D8D140D1EB000E48D11 /* Build configuration list for PBXProject "ActiveModelLib" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -287,57 +285,48 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 788B4D49177CD5FF00954A14 /* Products */;
-					ProjectRef = 78331D00140FB08600EE59E1 /* ActiveSupportKit.xcodeproj */;
+					ProductGroup = 788B4D58177CD7EA00954A14 /* Products */;
+					ProjectRef = 78331D00140FB08600EE59E1 /* ActiveSupportLib.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				78A36D93140D1EB000E48D11 /* ActiveModel */,
-				78A36DAB140D1EB100E48D11 /* ActiveModelTests */,
+				78BF7F15141646A500DB0DEA /* ActiveModel */,
+				78BF7F23141646A500DB0DEA /* ActiveModelTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		788B4D4E177CD5FF00954A14 /* ActiveSupport.framework */ = {
+		788B4D5D177CD7EA00954A14 /* libActiveSupport.a */ = {
 			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ActiveSupport.framework;
-			remoteRef = 788B4D4D177CD5FF00954A14 /* PBXContainerItemProxy */;
+			fileType = archive.ar;
+			path = libActiveSupport.a;
+			remoteRef = 788B4D5C177CD7EA00954A14 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		788B4D50177CD5FF00954A14 /* ActiveSupportTests.octest */ = {
+		788B4D5F177CD7EA00954A14 /* ActiveSupportTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ActiveSupportTests.octest;
-			remoteRef = 788B4D4F177CD5FF00954A14 /* PBXContainerItemProxy */;
+			remoteRef = 788B4D5E177CD7EA00954A14 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		78A36D92140D1EB000E48D11 /* Resources */ = {
+		78BF7F21141646A500DB0DEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A36DA2140D1EB000E48D11 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78A36DA9140D1EB100E48D11 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78A36DB8140D1EB100E48D11 /* InfoPlist.strings in Resources */,
-				78A36DBA140D1EB100E48D11 /* ActiveModelTests.h in Resources */,
+				78BF7F411416498E00DB0DEA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		78A36DAA140D1EB100E48D11 /* ShellScript */ = {
+		78BF7F22141646A500DB0DEA /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,38 +342,38 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		78A36D8F140D1EB000E48D11 /* Sources */ = {
+		78BF7F12141646A500DB0DEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A36DCE140D1F5400E48D11 /* AMName.m in Sources */,
-				7835BC941414C68000CC4B56 /* Versioning.m in Sources */,
-				78F526DF1458779400C1C0E1 /* AMJSONSerializers.m in Sources */,
-				78F526FD14587BB100C1C0E1 /* AMSerialization.m in Sources */,
-				78A6F0F114D692D2002F965B /* AMName+Private.m in Sources */,
+				78BF7F44141649CC00DB0DEA /* AMName.m in Sources */,
+				78BF7F46141649CC00DB0DEA /* Versioning.m in Sources */,
+				78F526E01458779400C1C0E1 /* AMJSONSerializers.m in Sources */,
+				78F526FE14587BB100C1C0E1 /* AMSerialization.m in Sources */,
+				78A6F0F214D692D2002F965B /* AMName+Private.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78A36DA7140D1EB100E48D11 /* Sources */ = {
+		78BF7F1F141646A500DB0DEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A36DBC140D1EB100E48D11 /* ActiveModelTests.m in Sources */,
+				78BF7F3E141647E100DB0DEA /* ActiveModelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		788B4D53177CD66200954A14 /* PBXTargetDependency */ = {
+		788B4D61177CD98200954A14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ActiveSupport;
-			targetProxy = 788B4D52177CD66200954A14 /* PBXContainerItemProxy */;
+			targetProxy = 788B4D60177CD98200954A14 /* PBXContainerItemProxy */;
 		};
-		78A36DB1140D1EB100E48D11 /* PBXTargetDependency */ = {
+		78BF7F2C141646A500DB0DEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 78A36D93140D1EB000E48D11 /* ActiveModel */;
-			targetProxy = 78A36DB0140D1EB100E48D11 /* PBXContainerItemProxy */;
+			target = 78BF7F15141646A500DB0DEA /* ActiveModel */;
+			targetProxy = 78BF7F2B141646A500DB0DEA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -410,7 +399,7 @@
 /* Begin XCBuildConfiguration section */
 		78A36DBD140D1EB100E48D11 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7839126B177CDC85004A7D08 /* ActiveModel.xcconfig */;
+			baseConfigurationReference = 78391269177CDC73004A7D08 /* ActiveModel.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -443,7 +432,7 @@
 		};
 		78A36DBE140D1EB100E48D11 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7839126B177CDC85004A7D08 /* ActiveModel.xcconfig */;
+			baseConfigurationReference = 78391269177CDC73004A7D08 /* ActiveModel.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -467,60 +456,76 @@
 			};
 			name = Release;
 		};
-		78A36DC0140D1EB100E48D11 /* Debug */ = {
+		78BF7F39141646A500DB0DEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 76.25;
-				DYLIB_INSTALL_NAME_BASE = "@executable_path/../Frameworks/ObjectiveRails.framework/Versions/Current/Frameworks";
-				FRAMEWORK_VERSION = A;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/ActiveModelLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActiveModel/ActiveModel-Prefix.pch";
-				INFOPLIST_FILE = "ActiveModel/ActiveModel-Info.plist";
+				HEADER_SEARCH_PATHS = "$(DSTROOT)/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ActiveModel;
-				WRAPPER_EXTENSION = framework;
+				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PRODUCT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		78A36DC1140D1EB100E48D11 /* Release */ = {
+		78BF7F3A141646A500DB0DEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 76.25;
-				DYLIB_INSTALL_NAME_BASE = "@executable_path/../Frameworks/ObjectiveRails.framework/Versions/Current/Frameworks";
-				FRAMEWORK_VERSION = A;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/ActiveModelLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActiveModel/ActiveModel-Prefix.pch";
-				INFOPLIST_FILE = "ActiveModel/ActiveModel-Info.plist";
+				HEADER_SEARCH_PATHS = "$(DSTROOT)/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ActiveModel;
-				WRAPPER_EXTENSION = framework;
+				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PRODUCT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		78A36DC3140D1EB100E48D11 /* Debug */ = {
+		78BF7F3C141646A500DB0DEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActiveModel/ActiveModel-Prefix.pch";
 				INFOPLIST_FILE = "ActiveModelTests/ActiveModelTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
-		78A36DC4140D1EB100E48D11 /* Release */ = {
+		78BF7F3D141646A500DB0DEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActiveModel/ActiveModel-Prefix.pch";
 				INFOPLIST_FILE = "ActiveModelTests/ActiveModelTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -528,7 +533,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		78A36D8D140D1EB000E48D11 /* Build configuration list for PBXProject "ActiveModelKit" */ = {
+		78A36D8D140D1EB000E48D11 /* Build configuration list for PBXProject "ActiveModelLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78A36DBD140D1EB100E48D11 /* Debug */,
@@ -537,20 +542,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78A36DBF140D1EB100E48D11 /* Build configuration list for PBXNativeTarget "ActiveModel" */ = {
+		78BF7F38141646A500DB0DEA /* Build configuration list for PBXNativeTarget "ActiveModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78A36DC0140D1EB100E48D11 /* Debug */,
-				78A36DC1140D1EB100E48D11 /* Release */,
+				78BF7F39141646A500DB0DEA /* Debug */,
+				78BF7F3A141646A500DB0DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78A36DC2140D1EB100E48D11 /* Build configuration list for PBXNativeTarget "ActiveModelTests" */ = {
+		78BF7F3B141646A500DB0DEA /* Build configuration list for PBXNativeTarget "ActiveModelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78A36DC3140D1EB100E48D11 /* Debug */,
-				78A36DC4140D1EB100E48D11 /* Release */,
+				78BF7F3C141646A500DB0DEA /* Debug */,
+				78BF7F3D141646A500DB0DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

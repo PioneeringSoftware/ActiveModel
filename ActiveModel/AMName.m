@@ -1,4 +1,4 @@
-// ActiveModelKit AMName.m
+// ActiveModel AMName.m
 //
 // Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -25,7 +25,7 @@
 #import "AMName.h"
 #import "AMName+Private.h"
 
-#import <ActiveSupportKit/ActiveSupportKit.h>
+#import <ActiveSupport/ActiveSupport.h>
 
 // Use a class continuation to modify the properties, changing readonly to
 // “readwrite.” Privately therefore, the class can modify its own properties

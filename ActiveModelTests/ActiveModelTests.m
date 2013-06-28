@@ -1,4 +1,4 @@
-// ActiveModelKitTests ActiveModelKitTests.m
+// ActiveModelTests ActiveModelTests.m
 //
 // Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -22,8 +22,8 @@
 //
 //------------------------------------------------------------------------------
 
-#import "ActiveModelKitTests.h"
-#import <ActiveModelKit/ActiveModelKit.h>
+#import "ActiveModelTests.h"
+#import <ActiveModel/ActiveModel.h>
 
 @interface Person : NSObject<AMAttributeMethods>
 
@@ -76,10 +76,10 @@
 
 @end
 
-@implementation ActiveModelKitTests
+@implementation ActiveModelTests
 
 //------------------------------------------------------------------------------
-#pragma                                                        Active Model Name
+#pragma mark -                                                 Active Model Name
 //------------------------------------------------------------------------------
 
 - (void)testNameDescriptionEqualsClassDescriptionWithoutNamespace
@@ -106,7 +106,7 @@
 }
 
 //------------------------------------------------------------------------------
-#pragma mark                                                       Serialisation
+#pragma mark -                                                     Serialisation
 //------------------------------------------------------------------------------
 
 - (void)testSerializableHash

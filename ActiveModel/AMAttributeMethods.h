@@ -1,4 +1,4 @@
-/* ActiveModelKit ActiveModelKit.h
+/* ActiveModel AMAttributeMethods.h
  *
  * Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
  *
@@ -22,10 +22,21 @@
  *
  ******************************************************************************/
 
-#import <ActiveModelKit/AMName.h>
+#import <Foundation/Foundation.h>
 
-#import <ActiveModelKit/AMAttributeMethods.h>
-#import <ActiveModelKit/AMSerialization.h>
-#import <ActiveModelKit/AMJSONSerializers.h>
+@protocol AMAttributeMethods<NSObject>
 
-#import <ActiveModelKit/Versioning.h>
+/**
+ * Answers a dictionary (or hash) of attributes where dictionary keys
+ * correspond to attribute _names_ and dictionary objects correspond to
+ * attribute _values_.
+ *
+ * The attributes hash must contain +[NSNull null] for nil values.
+ */
+- (NSDictionary *)attributes;
+
+@optional
+
+- (void)setAttributes:(NSDictionary *)newAttributes;
+
+@end

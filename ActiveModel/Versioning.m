@@ -1,4 +1,4 @@
-/* ActiveModelKit Versioning.h
+/* ActiveModel Versioning.m
  *
  * Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
  *
@@ -22,15 +22,20 @@
  *
  ******************************************************************************/
 
-#import <Foundation/Foundation.h>
+#import "Versioning.h"
 
-extern const unsigned char kActiveModelKitVersionString[];
-extern const double kActiveModelKitVersionNumber;
-
-/**
- * Answers the current Apple-generic versioning-formatted version string. The
- * version string has been trimmed. It has no leading or trailing whitespace or
- * newlines. Note that the raw C-based version string contrastingly has a single
- * terminating newline character.
- */
-NSString *ActiveModelKitVersionString(void);
+NSString *ActiveModelVersionString()
+{
+	// The implementation assumes that the raw C-language version string
+	// terminates with null. It also trims assuming that the very last character
+	// is a terminating line feed. Also assumes UTF-8 encoding.
+	static NSString *__strong versionString;
+	if (versionString == nil)
+	{
+		versionString = [[NSString stringWithCString:(const char *)kActiveModelVersionString encoding:NSUTF8StringEncoding] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+		atexit_b(^(void) {
+			versionString = nil;
+		});
+	}
+	return versionString;
+}
